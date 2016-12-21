@@ -1,5 +1,29 @@
 # node-express
 
+## 快速生成express-demo
+
+```bash
+npm install -g express-generator          # 全局安装express-generator
+
+express path/Your_Project_Name            # 生成express demo
+
+cd path/Your_Project_Name && npm install  # 进入目录并安装npm 包
+
+npm start                                 # 启动
+```
+
+```bash
+express --help                        # 查看express其他参数项
+
+-e  --ejs                             # ejs   模板支持
+    --pug                             # pug   模板支持
+    --hbs                             # hbs   模板支持
+    --hogan                           # hogan 模板支持
+
+-v  --view <engine>                   # 指定使用模板,ejs|hbs|hjs|jade|pug|twig|vash, 默认jade
+-c  --css  <engine>                   # 指定样式表引擎,less|stylus|compass|sass, 默认css
+```
+
 **参考文档**
 
 - [Express github](https://github.com/expressjs/express)
