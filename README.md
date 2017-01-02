@@ -24,12 +24,17 @@ express --help                        # 查看express其他参数项
 -c  --css  <engine>                   # 指定样式表引擎,less|stylus|compass|sass, 默认css
 ```
 
+## 路由
+
+[路由配置](Router.md)
+
 **参考文档**
 
 - [Express github](https://github.com/expressjs/express)
 - [Express website](http://www.expressjs.com.cn/)
 - [Express API 4.x](http://www.expressjs.com.cn/4x/api.html)
 - [Express API 3.x](http://expressjs.jser.us/3x_zh-cn/api.html)
+- [Express Router](http://lostjs.com/2014/04/24/router-in-express-4)
 
 **middleware**
 
